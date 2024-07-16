@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: configDefault
 eureka:
   instance:
     prefer-ip-address: true
@@ -6,6 +9,3 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-spring:
- application:
-   name: config-default
